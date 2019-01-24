@@ -32,6 +32,12 @@ public class Piece {
 		this.column = column;
 	}
 	
+	public void getPossiblePositions() {
+		if (value == 0) {
+			
+		}
+	}
+	
 	// value:
 	// 0: pawn
 	// 1: bishop
