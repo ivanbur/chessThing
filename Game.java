@@ -42,7 +42,13 @@ public class Game implements MouseListener {
 	}
 
 	public void unHighlightTiles() {
-
+		for (Tile[] tArray : tiles) {
+			for (Tile t : tArray) {
+				if (t.getHighlighted()) {
+					t.setHighlighted(false);
+				}
+			}
+		}
 	}
 
 	@Override
