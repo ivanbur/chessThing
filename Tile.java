@@ -2,7 +2,7 @@ package chessThing;
 
 public class Tile {
 	private int x, y, row, column, value;
-	boolean highlighted = false;
+	private boolean highlighted = false;
 	
 	public Tile(int x, int y, int row, int column, int value) {
 		this.x = x;
